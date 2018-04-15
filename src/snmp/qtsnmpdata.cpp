@@ -1,4 +1,4 @@
-#include "QtSnmpData.h"
+#include "qtsnmpdata.h"
 #include <QHostAddress>
 #include <math.h>
 

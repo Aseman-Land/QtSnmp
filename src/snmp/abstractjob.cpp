@@ -1,5 +1,5 @@
-#include "AbstractJob.h"
-#include "Session.h"
+#include "abstractjob.h"
+#include "session.h"
 
 namespace qtsnmpclient {
 

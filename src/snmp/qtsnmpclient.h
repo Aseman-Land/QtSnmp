@@ -1,13 +1,13 @@
 #pragma once
 
-#include "QtSnmpData.h"
+#include "qtsnmpdata.h"
 #include <QObject>
 #include <QHostAddress>
 #include "win_export.h"
 
 namespace qtsnmpclient { class Session; }
 
-class WIN_EXPORT QtSnmpClient : public QObject {
+class LIBQSNMPSHARED_EXPORT QtSnmpClient : public QObject {
     Q_OBJECT
     Q_DISABLE_COPY( QtSnmpClient )
 public:

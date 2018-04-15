@@ -1,5 +1,5 @@
-#include "RequestSubValuesJob.h"
-#include "Session.h"
+#include "requestsubvaluesjob.h"
+#include "session.h"
 
 namespace qtsnmpclient {
 
@@ -23,7 +23,7 @@ void RequestSubValuesJob::processData( const QtSnmpDataList& values ) {
     const auto& value = values.at( 0 );
     const auto& oid = value.address();
     bool request_next_value = ( 1 == values.count() );
-    request_next_value = request_next_value && ( 0 == oid.indexOf( m_base_oid + "." ) );
+    request_next_value = request_next_value && ( 0 == oid.indexOf( QString(m_base_oid + QStringLiteral(".")).toUtf8() ) );
     if( request_next_value ) {
         m_found << value;
         m_session->sendRequestGetNextValue( oid );

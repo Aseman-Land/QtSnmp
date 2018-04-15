@@ -1,5 +1,5 @@
-#include "RequestValuesJob.h"
-#include "Session.h"
+#include "requestvaluesjob.h"
+#include "session.h"
 
 namespace qtsnmpclient {
 

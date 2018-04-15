@@ -1,10 +1,10 @@
 #pragma once
 
-#include "AbstractJob.h"
+#include "abstractjob.h"
 
 namespace qtsnmpclient {
 
-class RequestSubValuesJob : public AbstractJob {
+class LIBQSNMPSHARED_EXPORT RequestSubValuesJob : public AbstractJob {
     Q_DISABLE_COPY( RequestSubValuesJob )
 public:
     explicit RequestSubValuesJob( Session*const,

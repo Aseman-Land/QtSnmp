@@ -1,10 +1,10 @@
 #pragma once
 
-#include "AbstractJob.h"
+#include "abstractjob.h"
 
 namespace qtsnmpclient {
 
-class SetValueJob : public AbstractJob {
+class LIBQSNMPSHARED_EXPORT SetValueJob : public AbstractJob {
     Q_DISABLE_COPY( SetValueJob )
 public:
     explicit SetValueJob( Session*const,

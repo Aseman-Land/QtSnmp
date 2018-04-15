@@ -1,6 +1,6 @@
 #pragma once
 
-#include "QtSnmpData.h"
+#include "qtsnmpdata.h"
 #include <QMetaType>
 #include <QSharedPointer>
 #include <QList>
@@ -9,7 +9,7 @@ namespace qtsnmpclient {
 
 class Session;
 
-class AbstractJob {
+class LIBQSNMPSHARED_EXPORT AbstractJob {
     Q_DISABLE_COPY( AbstractJob )
 protected:
     explicit AbstractJob( Session*const,

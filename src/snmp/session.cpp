@@ -1,8 +1,8 @@
-#include "Session.h"
-#include "QtSnmpData.h"
-#include "RequestValuesJob.h"
-#include "RequestSubValuesJob.h"
-#include "SetValueJob.h"
+#include "session.h"
+#include "qtsnmpdata.h"
+#include "requestvaluesjob.h"
+#include "requestsubvaluesjob.h"
+#include "setvaluejob.h"
 #include "defines.h"
 #include <QDateTime>
 #include <QHostAddress>

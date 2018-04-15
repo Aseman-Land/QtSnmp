@@ -17,7 +17,7 @@ QDebug operator<<( QDebug, const QtSnmpData& );
 bool operator==( const QtSnmpData&, const QtSnmpData& );
 bool operator!=( const QtSnmpData&, const QtSnmpData& );
 
-class WIN_EXPORT QtSnmpData {
+class LIBQSNMPSHARED_EXPORT QtSnmpData {
     friend QDataStream& ::operator<<( QDataStream&, const QtSnmpData& );
     friend QDataStream& ::operator>>( QDataStream&, QtSnmpData& );
     friend bool ::operator==( const QtSnmpData&, const QtSnmpData& );

@@ -1,5 +1,5 @@
-#include "QtSnmpClient.h"
-#include "Session.h"
+#include "qtsnmpclient.h"
+#include "session.h"
 #include "defines.h"
 
 Q_DECLARE_METATYPE( QHostAddress )

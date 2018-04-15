@@ -1,6 +1,6 @@
 #pragma once
 
-#include "AbstractJob.h"
+#include "abstractjob.h"
 #include <QObject>
 #include <QByteArray>
 #include <QSharedPointer>
@@ -16,7 +16,7 @@
 
 namespace qtsnmpclient {
 
-class Session : public QObject {
+class LIBQSNMPSHARED_EXPORT Session : public QObject {
     Q_OBJECT
     Q_DISABLE_COPY( Session )
 public:
