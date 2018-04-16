@@ -35,10 +35,10 @@ public:
                      const int type,
                      const QByteArray& value );
 
-private:
-    Q_SIGNAL void responseReceived( const qint32 request_id,
+Q_SIGNALS:
+    void responseReceived( const qint32 request_id,
                                     const QtSnmpDataList& );
-    Q_SIGNAL void requestFailed( const qint32 request_id );
+    void requestFailed( const qint32 request_id );
 
 private:
     qtsnmpclient::Session*const m_session;
